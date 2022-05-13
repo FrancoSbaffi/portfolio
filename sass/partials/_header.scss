@@ -1,0 +1,65 @@
+/* Start header */
+
+.nav{  
+    margin-top: 2rem;
+    
+    .my_name{
+        font-size: 2em;
+        text-decoration: none;
+        color: $color-black;
+        font-weight: 700;
+    
+        &:hover{
+            color: $color-blue;
+            transition: all 0.3s;
+        }
+    
+        .point_blue{
+            color: $color-blue;
+        } 
+    }
+}
+
+.ul_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2rem;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    gap: 3rem;
+
+    .list_class{
+        text-decoration: none;
+        color: $color-black;
+
+        &:hover{
+            color: $color-blue;
+        }
+
+    }
+}
+
+/*  MEDIA QUERYS HEADER*/
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }   
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .nav{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}    
+
+@media (min-width: 768px) and (max-width: 1079px) {
+    .nav{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+/* End header */

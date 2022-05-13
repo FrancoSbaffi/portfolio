@@ -1,0 +1,142 @@
+/* START MAIN SCSS */
+
+.container_main{
+    margin-top: 5rem;
+
+    .presentation_im{
+        font-size: 2.8em;
+        line-height: 1.5em;
+        letter-spacing: 0.5rem;
+    }
+
+    .presentation_name{
+        font-size: 12em;
+        color: $color-blue;
+        letter-spacing: 1rem;
+    }
+}
+
+.my_work{
+    margin-top: 2rem;
+    font-size: 2em;
+    letter-spacing: 1.5rem;
+    
+    &:hover{
+        color: $color-blue;
+    }
+}
+
+.btn{
+    width: 30rem;
+    color: $color-blue;
+    background-color: $color-white;
+    font-size: 1.5em;
+    letter-spacing: 0.2rem;
+    border: 1px solid $color-blue;
+    padding: 1em;
+    margin-top: 5rem;
+
+    &:hover{
+        background-color: $color-blue;
+        color: $color-white;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+}
+
+.bk_blue{
+    background-color: $color-blue;
+    max-width: 100%;
+    min-height: 100vh;
+    margin-top: 8.5rem;
+
+    .text_projects{
+        display: flex;
+        justify-content: flex-start;
+        line-height: 25rem;
+        font-size: 1.5em;
+        font-weight: 500;
+        letter-spacing: 3rem;
+    }
+
+    .work_image{
+        font-size: 7em;
+        font-weight: 700;
+        color: $color-white;
+    }
+
+    .webapp{
+        font-size: 1.6em;
+        font-size: 300;
+        color: $color-white;
+        letter-spacing: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    .btn_2{
+        color: $color-white;
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+        background-color: #7505cb;
+        border: #7505cb;
+        padding: 10px;
+        margin-top: 5rem;
+        font-size: 1.8em;
+        z-index: 1;
+        position: absolute; 
+        
+        &:hover{
+            background-color: #540094;
+            border: #7505cb;
+            transition: all 0.3s;
+        }
+
+    }
+
+    .image{
+        margin-top: -10rem;
+    }
+}
+
+.bg_white{
+    background-color: $color-white;
+    max-width: 100%;
+    min-height: 50vh;
+
+    .text_bg{
+        background-color: $color-third;
+        padding: 8.8rem;
+        margin-top: 15rem;
+        margin-bottom: 12rem;
+
+        .text_reference{
+            font-size: 2.2em;
+            font-weight: 300;
+            letter-spacing: 0.2rem;
+        }
+
+        .name_co{
+            color: $color-blue;
+            font-size: 1.8em;
+            font-weight: 300;
+            letter-spacing: 0.3rem;
+        }
+    }
+
+    .img_coord{
+        position: absolute;
+        margin-top: -11.5rem;
+        margin-left: -5rem;
+
+        .coord{
+            margin-bottom: -20rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+.bg_blue2{
+    background-color: $color-blue;
+    max-width: 100%;
+    min-height: 50vh;
+}

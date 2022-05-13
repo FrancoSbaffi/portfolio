@@ -1,6 +1,6 @@
 /* IMPORTS */
 /* MISC */
-@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 /* RESET */
 *,
 *::before,
@@ -12,7 +12,7 @@
 /* GLOBALS */
 html {
   font-size: 62.5%;
-  font-family: 'Oxygen Mono', monospace; }
+  font-family: 'Ubuntu', sans-serif; }
 
 /* HELPERS */
 .flex-row {
@@ -28,4 +28,153 @@ html {
 
 /* VARIABLE COLORS */
 /* PARTIALS */
+/* Start header */
+.nav {
+  margin-top: 2rem; }
+  .nav .my_name {
+    font-size: 2em;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700; }
+    .nav .my_name:hover {
+      color: #2e00ff;
+      transition: all 0.3s; }
+    .nav .my_name .point_blue {
+      color: #2e00ff; }
+
+.ul_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -2rem;
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  gap: 3rem; }
+  .ul_container .list_class {
+    text-decoration: none;
+    color: #000; }
+    .ul_container .list_class:hover {
+      color: #2e00ff; }
+
+/*  MEDIA QUERYS HEADER*/
+@media only screen and (max-width: 600px) {
+  .nav {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; } }
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .nav {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; } }
+
+@media (min-width: 768px) and (max-width: 1079px) {
+  .nav {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; } }
+
+/* End header */
 /* VIEWS */
+/* START MAIN SCSS */
+.container_main {
+  margin-top: 5rem; }
+  .container_main .presentation_im {
+    font-size: 2.8em;
+    line-height: 1.5em;
+    letter-spacing: 0.5rem; }
+  .container_main .presentation_name {
+    font-size: 12em;
+    color: #2e00ff;
+    letter-spacing: 1rem; }
+
+.my_work {
+  margin-top: 2rem;
+  font-size: 2em;
+  letter-spacing: 1.5rem; }
+  .my_work:hover {
+    color: #2e00ff; }
+
+.btn {
+  width: 30rem;
+  color: #2e00ff;
+  background-color: #fff;
+  font-size: 1.5em;
+  letter-spacing: 0.2rem;
+  border: 1px solid #2e00ff;
+  padding: 1em;
+  margin-top: 5rem; }
+  .btn:hover {
+    background-color: #2e00ff;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer; }
+
+.bk_blue {
+  background-color: #2e00ff;
+  max-width: 100%;
+  min-height: 100vh;
+  margin-top: 8.5rem; }
+  .bk_blue .text_projects {
+    display: flex;
+    justify-content: flex-start;
+    line-height: 25rem;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 3rem; }
+  .bk_blue .work_image {
+    font-size: 7em;
+    font-weight: 700;
+    color: #fff; }
+  .bk_blue .webapp {
+    font-size: 1.6em;
+    font-size: 300;
+    color: #fff;
+    letter-spacing: 1.8rem;
+    margin-top: 2rem; }
+  .bk_blue .btn_2 {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    background-color: #7505cb;
+    border: #7505cb;
+    padding: 10px;
+    margin-top: 5rem;
+    font-size: 1.8em;
+    z-index: 1;
+    position: absolute; }
+    .bk_blue .btn_2:hover {
+      background-color: #540094;
+      border: #7505cb;
+      transition: all 0.3s; }
+  .bk_blue .image {
+    margin-top: -10rem; }
+
+.bg_white {
+  background-color: #fff;
+  max-width: 100%;
+  min-height: 50vh; }
+  .bg_white .text_bg {
+    background-color: #fffccc;
+    padding: 8.8rem;
+    margin-top: 15rem;
+    margin-bottom: 12rem; }
+    .bg_white .text_bg .text_reference {
+      font-size: 2.2em;
+      font-weight: 300;
+      letter-spacing: 0.2rem; }
+    .bg_white .text_bg .name_co {
+      color: #2e00ff;
+      font-size: 1.8em;
+      font-weight: 300;
+      letter-spacing: 0.3rem; }
+  .bg_white .img_coord {
+    position: absolute;
+    margin-top: -11.5rem;
+    margin-left: -5rem; }
+    .bg_white .img_coord .coord {
+      margin-bottom: -20rem;
+      border-radius: 50%; }
+
+.bg_blue2 {
+  background-color: #2e00ff;
+  max-width: 100%;
+  min-height: 50vh; }
