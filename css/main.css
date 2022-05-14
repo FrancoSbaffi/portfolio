@@ -73,6 +73,36 @@ html {
     margin-right: 1.5rem; } }
 
 /* End header */
+/* START FOOTER */
+.bg_footer {
+  background-color: #fffccc;
+  min-height: 10vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #fff;
+  font-size: 1.5em;
+  letter-spacing: 0.2rem;
+  text-align: left; }
+  .bg_footer .footer_text {
+    color: #000;
+    padding-left: 50px;
+    letter-spacing: 00.3rem; }
+  .bg_footer .footer_text2 {
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    padding-right: 50px;
+    margin-top: -1.5rem;
+    letter-spacing: 0.3rem; }
+    .bg_footer .footer_text2 .footer_links {
+      text-decoration: none;
+      color: #2e00ff; }
+      .bg_footer .footer_text2 .footer_links:hover {
+        color: #40046d;
+        transition: all 0.5s; }
+      .bg_footer .footer_text2 .footer_links .bar {
+        color: #000; }
+
 /* VIEWS */
 /* START MAIN SCSS */
 .container_main {
@@ -144,7 +174,7 @@ html {
     .bk_blue .btn_2:hover {
       background-color: #540094;
       border: #7505cb;
-      transition: all 0.3s; }
+      transition: all 0.5s; }
   .bk_blue .image {
     margin-top: -10rem; }
 
@@ -178,3 +208,118 @@ html {
   background-color: #2e00ff;
   max-width: 100%;
   min-height: 50vh; }
+  .bg_blue2 .text_blue2 {
+    margin-top: 3rem;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 3rem; }
+  .bg_blue2 .list_container1 {
+    list-style: none;
+    font-size: 2.2em;
+    letter-spacing: 0.4rem;
+    font-weight: 500;
+    margin-top: 6rem;
+    line-height: 6rem; }
+    .bg_blue2 .list_container1 .links_goals {
+      text-decoration: none;
+      color: #fff;
+      transition: all 0.5s; }
+      .bg_blue2 .list_container1 .links_goals:hover {
+        color: #540094;
+        font-size: 3.1rem; }
+
+.bg_white_final {
+  background-color: #fff;
+  max-width: 100%;
+  min-height: 50vh;
+  margin-top: 12rem; }
+  .bg_white_final .contact_me_main {
+    font-size: 4em;
+    letter-spacing: 1.3rem;
+    color: #2e00ff;
+    font-weight: 500; }
+  .bg_white_final .bg_my_email {
+    margin-top: 5rem;
+    font-size: 1.5em; }
+    .bg_white_final .bg_my_email .email_link {
+      text-decoration: none;
+      color: #2e00ff;
+      font-size: 1.3em;
+      letter-spacing: 0.3rem;
+      color: #2e00ff;
+      font-weight: 300; }
+      .bg_white_final .bg_my_email .email_link .bg_color {
+        background-color: #fff;
+        border: 2px solid #2e00ff;
+        padding: 15px;
+        transition: all 0.8s; }
+        .bg_white_final .bg_my_email .email_link .bg_color:hover {
+          background-color: #2e00ff;
+          color: #fff; }
+  .bg_white_final .open_work_div {
+    margin-top: 5rem;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 2.2rem; }
+    .bg_white_final .open_work_div .open_work {
+      color: #000; }
+
+/* START ABOUT */
+.about_container {
+  margin-top: 13rem;
+  margin-bottom: 15rem;
+  font-size: 2.2em;
+  font-weight: 300;
+  letter-spacing: 0.2rem; }
+  .about_container .first_text-about {
+    margin-bottom: 3rem; }
+    .about_container .first_text-about .name_blue-about {
+      color: #2e00ff; }
+  .about_container .second_text-about {
+    margin-bottom: 3rem; }
+
+.at_work-about {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .at_work-about .at_work-text {
+    margin-bottom: 3rem;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.3rem; }
+  .at_work-about .at_work-subtitle {
+    font-size: 2.2em;
+    font-weight: 300;
+    letter-spacing: 0.2rem; }
+
+.in_life-about {
+  margin-top: 3rem;
+  margin-bottom: 15rem; }
+  .in_life-about .in_life-text {
+    margin-bottom: 3rem;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.3rem; }
+  .in_life-about .in_life-subtitle {
+    font-size: 2.2em;
+    font-weight: 300;
+    letter-spacing: 0.2rem; }
+  .in_life-about .where_to-about {
+    margin-top: 3rem;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.3rem; }
+  .in_life-about .where_find-about {
+    margin-top: 3rem;
+    font-size: 2.2em;
+    font-weight: 300;
+    letter-spacing: 0.2rem; }
+    .in_life-about .where_find-about .gmail_about {
+      color: #2e00ff;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 0.3rem; }
+    .in_life-about .where_find-about .about_linkedin {
+      color: #2e00ff;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 0.3rem; }

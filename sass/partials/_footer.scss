@@ -1,0 +1,41 @@
+/* START FOOTER */
+
+.bg_footer{
+    background-color: $color-third;
+    min-height: 10vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: $color-white;
+    font-size: 1.5em;
+    letter-spacing: 0.2rem;
+    text-align: left;
+
+    .footer_text{
+        color: $color-black;
+        padding-left: 50px;
+        letter-spacing: 00.3rem;
+    }
+
+    .footer_text2{
+        display: flex;
+        justify-content: flex-end;
+        color: $color-black;
+        padding-right: 50px;
+        margin-top: -1.5rem;
+        letter-spacing: 0.3rem;
+
+        .footer_links{
+            text-decoration: none;
+            color: $color-blue;
+
+            &:hover{
+                color: #40046d;
+                transition: all 0.5s;
+            }
+
+            .bar{
+                color: $color-black;
+            }
+        }
+    }
+}

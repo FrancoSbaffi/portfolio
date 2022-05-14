@@ -1,0 +1,85 @@
+/* START ABOUT */
+
+.about_container{
+    margin-top: 13rem;
+    margin-bottom: 15rem;
+    font-size: 2.2em;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+
+    .first_text-about{
+        margin-bottom: 3rem;
+        
+        .name_blue-about{
+            color: $color-blue;
+        }
+    }
+    
+    .second_text-about{
+        margin-bottom: 3rem;
+    }    
+}
+
+.at_work-about{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    .at_work-text{
+        margin-bottom: 3rem;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+    }
+
+    .at_work-subtitle{
+        font-size: 2.2em;
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+    }
+}
+
+.in_life-about{
+    margin-top: 3rem;
+    margin-bottom: 15rem;
+
+    .in_life-text{
+        margin-bottom: 3rem;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+    }
+
+    .in_life-subtitle{
+        font-size: 2.2em;
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+    }
+
+    .where_to-about{
+        margin-top: 3rem;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: 0.3rem;  
+    }
+
+        .where_find-about{
+            margin-top: 3rem;
+            font-size: 2.2em;
+            font-weight: 300;
+            letter-spacing: 0.2rem;
+            
+            .gmail_about{
+                color: $color-blue;
+                text-decoration: none;
+                font-weight: 500;
+                letter-spacing: 0.3rem;
+            }
+
+            .about_linkedin{
+                color: $color-blue;
+                text-decoration: none;
+                font-weight: 500;
+                letter-spacing: 0.3rem;
+            }
+       }
+}
