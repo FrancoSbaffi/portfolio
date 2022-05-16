@@ -1,0 +1,53 @@
+.main_section-skills{
+    margin-top: 13rem;
+
+    .section_skills{
+        font-size: 5em;
+        letter-spacing: 2rem;
+        margin-bottom: 3rem;
+        transition: all 0.3s ease-in-out;
+        
+        &:hover{
+            color: $color-blue;
+            text-shadow: 2px 2px 20px $color-blue;
+        }
+    }
+
+    .section_tech{
+        font-size: 2em;
+        letter-spacing: 0.3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.second_section-skills{
+    margin-top: 8rem;
+
+    .ul_skills{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 1.5rem;
+        font-size: 2.5em;
+        letter-spacing: 0.3rem;
+        margin-bottom: 16rem;
+    }
+
+    .bar_blue{
+        color: $color-blue;
+        font-weight: 700;
+        text-shadow: 1px 1px 20px $color-blue;
+    }
+}
+
+.ul_skills2{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: 2.5em;
+    letter-spacing: 0.3rem;
+    margin-left: 30rem;
+    margin-top: -62.6rem;
+    
+}

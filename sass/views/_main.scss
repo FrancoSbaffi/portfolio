@@ -20,6 +20,7 @@
     margin-top: 2rem;
     font-size: 2em;
     letter-spacing: 1.5rem;
+    transition: all 0.5s;
     
     &:hover{
         color: $color-blue;
@@ -35,11 +36,11 @@
     border: 1px solid $color-blue;
     padding: 1em;
     margin-top: 5rem;
+    transition: all 0.3s;
 
     &:hover{
         background-color: $color-blue;
         color: $color-white;
-        transition: all 0.3s;
         cursor: pointer;
     }
 }
@@ -83,12 +84,13 @@
         margin-top: 5rem;
         font-size: 1.8em;
         z-index: 1;
-        position: absolute; 
+        position: absolute;
+        transition: all 0.5s; 
         
         &:hover{
             background-color: #540094;
             border: #7505cb;
-            transition: all 0.5s;
+            cursor: pointer;
         }
 
     }
